@@ -20,6 +20,24 @@
   --medium-font: 1.8rem;
   --p-font: 0.941rem;
 }
+
+body.active{
+  --main-color: rgb(201, 221, 236);
+  --bg-color: #081e25;
+  --bg-color1: #091a1f;
+  --text-color: #3636e9;
+  --hover: hsl(180, 21%, 20%);
+}
+
+#darkmode{
+  font-size: 22px;
+  cursor: pointer;
+}
+
+#darkmode:hover{
+  color: var(--hover);
+}
+
 section {
   padding: 50px 10%;
 }
@@ -116,7 +134,7 @@ header {
   font-weight: 500;
 }
 .home-text h1 {
-  font-size: var(--big-font);
+  font-size: 45px;
 }
 .home-text h2 {
   font-size: 1.1rem;
@@ -224,18 +242,23 @@ span {
   background: var(--main-color);
   border-radius: 0.5rem;
 }
-.html-bar {
-  width: 94%;
+.java-bar {
+  width: 90%;
 }
-.css-bar {
-  width: 84%;
+.python-bar {
+  width: 75%;
 }
-.js-bar {
-  width: 74%;
-}
-.react-bar {
+
+.sql-bar{
   width: 80%;
 }
+.web-bar {
+  width: 75%;
+}
+.ml-bar {
+  width: 50%;
+}
+
 .projects-content {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, auto));
@@ -325,7 +348,7 @@ form textarea {
 .contact-button:hover {
   background: var(--hover);
 }
-.footer {
+/* .footer {
   display: grid;
   place-items: center;
   padding: 20px;
@@ -346,7 +369,7 @@ form textarea {
   border-radius: 50%;
   width: 40px;
   height: 40px;
-}
+} */
 .copyright {
   padding: 20px;
   background: var(--main-color);
