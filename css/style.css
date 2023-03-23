@@ -22,11 +22,11 @@
 }
 
 body.active{
-  --main-color: rgb(201, 221, 236);
-  --bg-color: #081e25;
-  --bg-color1: #091a1f;
-  --text-color: #3636e9;
-  --hover: hsl(180, 21%, 20%);
+  --main-color: rgb(88, 6, 239);
+  --bg-color: #08051d;
+  --bg-color1: #2c465d;
+  --text-color: #f9f9ff;
+  --hover: #001a5d;
 }
 
 #darkmode{
@@ -295,7 +295,7 @@ span {
   color: var(--main-color);
 }
 .projects-box:hover .bx{
-  color: #22cf91;
+  color: #ffffff;
 }
 .projects-box a {
   color: var(--main-color);
